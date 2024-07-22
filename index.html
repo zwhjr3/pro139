@@ -1,0 +1,37 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class="btn btn-info heading">
+                
+            <h1>
+                ping Pong
+            </h1>
+                <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">how2play</button>
+            
+            </div>
+            <button class="btn btn-danger" onclick="startGame()">play</button>
+            <h4 id="MT"></h4>
+            <div id="empty"></div>
+            <button id="restart" class="btn btn-sucess" onclick="restart()">restart</button>
+            <div id="#myModal"></div>
+            <h4 id="sticky">creator</h4>
+        </center>
+
+        <script src="main.js"></script>
+    </body>
+</html>
